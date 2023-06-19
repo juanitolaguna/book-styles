@@ -16,14 +16,14 @@
 
 document-settings {
 
-	page-inset-top:    20mm;	page-inset-inner:  20mm
-	page-inset-bottom: 45mm;	page-inset-outer:  30mm
+	page-inset-top:    20mm;	page-inset-inner:  15mm
+	page-inset-bottom: 45mm;	page-inset-outer:  25mm
 	
 	section-break:	heading-1
 	// always have H1 on a new page
 	
-	two-sided:		no
-	page-binding:	left
+	two-sided:		yes
+	page-binding:	right
 	
 	footnote-enumeration:	per-section
 	footnote-placement:		end-of-page
