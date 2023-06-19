@@ -17,13 +17,13 @@
 document-settings {
 
 	page-inset-top:    20mm;	page-inset-inner:  15mm
-	page-inset-bottom: 45mm;	page-inset-outer:  25mm
+	page-inset-bottom: 20mm;	page-inset-outer:  20mm
 	
 	section-break:	heading-1
 	// always have H1 on a new page
 	
 	two-sided:		yes
-	page-binding:	right
+	page-binding:	left
 	
 	footnote-enumeration:	per-section
 	footnote-placement:		end-of-page
@@ -40,8 +40,8 @@ document-settings {
 defaults {
 
 	font-family:	"Avenir Next"
-	font-size:		12pt
-	line-height:	18pt
+	font-size:		10pt
+	line-height:	16pt
 	
 	text-alignment: justified
 	hyphenation:	yes
@@ -210,6 +210,8 @@ heading-6 {
 
 paragraph {
 
+	margin-bottom:			1mm
+	//margin-top:				1mm
 	style-title:		"Paragraph"
 	// As shown and used by MS Word
 
@@ -235,7 +237,7 @@ paragraph-figure {
 }
 
 paragraph + paragraph {
-	first-line-indent:	3em
+	//first-line-indent:	3em
 	// Indent the first line of a paragraph,
 	// except for the first paragraph
 	
